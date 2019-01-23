@@ -7,19 +7,28 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace ProyectoFinalWebDefinitivo.Registros {
+namespace WebApplication {
     
     
-    public partial class rUsuarios {
+    public partial class Login {
         
         /// <summary>
-        /// Control Email.
+        /// Control form1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Email;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        
+        /// <summary>
+        /// Control Usuario.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Usuario;
         
         /// <summary>
         /// Control Password.
