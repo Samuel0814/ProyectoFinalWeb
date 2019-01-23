@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace FroyectoFinalWebDefinitivo {
+namespace ProyectoFinalWebDefinitivo.Registro {
     
     
     public partial class UserRegister {

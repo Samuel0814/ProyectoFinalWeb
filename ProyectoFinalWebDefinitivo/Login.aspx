@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"/>
     <title>Login</title>
 </head>
 <body >
@@ -40,13 +40,13 @@
                         
                         <asp:TextBox runat="server"  ID="Password"/>
                     </td>
-                    <tr>
+                    
                     <td class="btn-group">
                         <asp:Button Text="Entrar" runat="server" OnClick="Login_Click" class="btn btn-outline-success"/></td>
                     <td>
                         <asp:Button Text="Registrarse" runat="server" class="btn btn-dark" OnClick="Register_Click" OnDataBinding="Unnamed4_DataBinding"/>
                     </td>
-                </tr>
+                
                 </tr>
             </table>
         </div>
